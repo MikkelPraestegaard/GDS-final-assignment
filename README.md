@@ -35,19 +35,17 @@ Running this notebook with a GPU is highly advised because we evaluate the Alber
 
 Code.ipynb - Utilized packages:
 
-matplotlib (+pyplot)
+matplotlib
 pandas
 numpy
-sklearn.model_selection (train_test_split)
-regular expressions (re)
-nltk.corpus (stopwords)
+re (regular expressions)
+sklearn
+nltk
 Stemmer
-tqdm.notebook
-sklearn.feature_extraction.text (CountVectorizer)
-sklearn.linear_model (LogisticRegression)
-sklearn.metrics (f1_score)
+tqdm
 gc
-collections (Counter)
-sklearn.metrics (confusion_matrix)
-transformers (AlbertTokenizer, AlbertForSequenceClassification, DataCollatorWithPadding)
+collections 
+transformers 
 torch
+huggingface_hub
+datasets
